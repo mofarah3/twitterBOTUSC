@@ -2,6 +2,7 @@
 import tweepy
 import json
 import time
+import os
 
 # Twitter API Keys
 consumer_key = os.environ['consumer_key']
