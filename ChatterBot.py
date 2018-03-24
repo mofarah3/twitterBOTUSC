@@ -20,12 +20,12 @@ api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 # Create a function that tweets
 def TweetOut(tweet_number):
     api.update_status(
-        "Can't stop. Won't stop. Chatting! This is Tweet #%s!" %
+        "Can't stop. Won't stop. Chatting! This is the Tweet #%s!" %
         tweet_number)
 
 
 # Create a function that calls the TweetOut function every minute
-counter = 0
+counter = 1
 
 # Infinitely loop
 while(True):
